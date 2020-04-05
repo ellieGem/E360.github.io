@@ -21,9 +21,9 @@
 }
 
 @media(max-width:768px){
-    .main{
+    /* .main{
         background-size: cover !important;
-    }
+    } */
     .navbar{
         padding: 10px;
     }
@@ -65,6 +65,18 @@
     .about .aboutImage{
         height: 100% !important;
         width: 80% !important;
+    }
+    .standFor {
+        height: 100% !important;
+    }
+    .standFor .standHead{
+        font-size: 30px !important;
+    }
+    .standFor .standCap{
+        font-size: 26px !important;
+    }
+    .standFor .standPara{
+        font-size: 16px;
     }
 }
 
@@ -138,7 +150,7 @@
 
 .about{
     margin-top: 20px;
-    height: 50vh;
+    height: 50%;
     background-color: white;
 }
 .about .border{
@@ -169,7 +181,7 @@
 }
 .service{
     margin-top: 50px;
-    height: 100vh;
+    height: 100%;
     background-color: white;
 }
 .service .serviceHead{
@@ -197,4 +209,45 @@
 }
  .col-sm-4:hover .serviceImg{
     background: linear-gradient(0deg, rgba(225, 172, 34, 0.54), rgba(225, 172, 34, 0.54))
+}
+
+.standFor {
+    background: url(../assets/stand.png);
+    height: 60vh;
+    width: 100%;
+}
+.standFor .standHead{
+    font-family: 'Lato';
+    color: white;
+    margin-top: 20px;
+}
+.standFor .border{
+    height: 3px ;
+    width: 55px;
+    border: 0;
+    background: #E1AC22;
+}
+.standFor .cards{
+    /* padding-left: 40px; */
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.standFor img{
+    padding: 50px 0 0 40px;
+}
+.standFor .standCap{
+    padding: 50px 0 0 20px;
+    color: white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 190px;
+}
+.standFor .standPara{
+    padding: 20px 0 0 40px;
+    color: white;
+    font-family: 'Lato';
+    font-size: 20px;
 }
