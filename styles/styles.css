@@ -106,9 +106,16 @@
     color: #ffffff;
     text-decoration: none;
 }
+.navbar .navbar-nav .active .nav-link{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
 .navbar .navbar-nav .nav-item .nav-link:hover{
     background-color: #ffffff;
-    color: black
+    color: black;
+    border-radius: 5px;
 }
 
 .main{
